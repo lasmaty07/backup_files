@@ -1,0 +1,13 @@
+.local/*
+Downloads/*
+.bashrc
+.bash_history
+.bash_logout
+.bash_profile
+.cache
+.python_history
+.zshrc.pre-oh-my-zsh
+.docker
+.vscode-server
+.lesshst
+.histfile
