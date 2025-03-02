@@ -24,5 +24,5 @@ export CHAT_ID="123456789"
 add something like this to your sudo crontab
 
 ```
-00 12 * * * ~/backup_files/backup.zsh >> ~/backup_files/backup.log
+00 12 * * * cd path/to/files/ && ~/backup_files/backup.zsh >> ~/backup_files/backup.log 2>&1
 ```
