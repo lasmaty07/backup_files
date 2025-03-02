@@ -1,8 +1,9 @@
 # backup_files
+
 Backing up Home folder using rsync
 
-
 `secrets.zsh` example file
+
 ```zsh
 #!/bin/zsh
 
@@ -18,4 +19,10 @@ export source_backupdir=/home/user/
 # Telegram Bot Info
 export TELEGRAM_BOT_TOKEN="123456789:ADWDAWDADADWDADAWDADWD"
 export CHAT_ID="123456789"
+```
+
+add something like this to your sudo crontab
+
+```
+00 12 * * * ~/backup_files/backup.zsh >> ~/backup_files/backup.log
 ```
