@@ -2,7 +2,8 @@
 
 source ./secrets.zsh
 
-echo
+echo 
+echo $(date)
 echo "destination: $dest_backupdir"
 echo "source: $source_backupdir"
 echo
