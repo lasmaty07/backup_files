@@ -1,6 +1,6 @@
 #!/bin/zsh
 
-source ./secrets.sh
+source ./secrets.zsh
 
 echo
 echo "destination: $dest_backupdir"
